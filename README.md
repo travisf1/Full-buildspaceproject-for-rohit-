@@ -68,7 +68,7 @@ pub contract buildSpacemyPicsfinalproj: NonFungibleToken {
     pub fun deposit(token: @NonFungibleToken.NFT)
     pub fun getIDs(): [UInt64]
     pub fun borrowNFT(id: UInt64): &NonFungibleToken.NFT
-    /*added function below to match docs contract, unsure if needed
+    /*add function below to match docs contract?, unsure if needed
     pub fun borrowbuildSpacemyPicsfinalproj(id: UInt64): &buildSpacemyPicsfinalproj.NFT? {
             post {
                 (result == nil) || (result?.id == id):
