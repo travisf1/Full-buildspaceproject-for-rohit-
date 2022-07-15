@@ -317,7 +317,7 @@ pub struct NFTResult {
 ### getTotalSupply_script
 
 
-```
+```js
 
 export const getTotalSupply =
 `
@@ -337,7 +337,7 @@ pub fun main(): UInt64 {
 
 ## Transactions (myMintNFT_tx.js)
 
-```
+```js
 export const myMintNFT = //changed to myMintNFT from mintNFT
 
 `
